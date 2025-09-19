@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "ChangeLocationActions",
+    "maps": [
+        {
+            "name": "Actions",
+            "id": "c86b99c0-72d2-4b2a-aa39-7d071b4e7b4d",
+            "actions": [
+                {
+                    "name": "CycleLocationBackward",
+                    "type": "Button",
+                    "id": "b88218e5-21bd-468d-b1d0-4de8c0bf2afc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CycleLocationForward",
+                    "type": "Button",
+                    "id": "7b9218b8-dc40-4436-a57b-0a0c013148df",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d621fcdd-eee9-42e7-8371-6088a83f872c",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CycleLocationBackward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "94bc08c7-04af-4a7a-bdbb-8afd1e77d736",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CycleLocationForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

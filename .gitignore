@@ -97,3 +97,8 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# ArcGIS Maps SDK (this is a comment)
+
+/[Aa]ssets/[Ss]amples/ArcGIS Maps SDK for Unity* 
+Packages/com.esri.arcgis-maps-sdk/
